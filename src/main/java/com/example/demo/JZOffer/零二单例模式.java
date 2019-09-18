@@ -1,6 +1,6 @@
 package com.example.demo.JZOffer;
 
-public class 单例模式2 {
+public class 零二单例模式 {
     public static void main(String[] args) {
         People people = People.getInstance();
         System.out.println(people.get());
