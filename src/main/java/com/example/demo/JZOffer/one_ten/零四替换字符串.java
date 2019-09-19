@@ -1,4 +1,4 @@
-package com.example.demo.JZOffer;
+package com.example.demo.JZOffer.one_ten;
 
 public class 零四替换字符串 {
     public static void main(String[] args) {

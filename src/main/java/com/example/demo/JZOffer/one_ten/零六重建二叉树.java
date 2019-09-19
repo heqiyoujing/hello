@@ -1,8 +1,22 @@
-package com.example.demo.JZOffer;
+package com.example.demo.JZOffer.one_ten;
+
+import java.util.Arrays;
 
 public class 零六重建二叉树 {
     public static void main(String[] args) {
-        
+        int[] pre = {1,2,4,7,3,5,6,8};
+        int[] in = {4,7,2,1,5,3,8,6};
+        TreeNode treeNode = reConstructBinaryTree(pre, in);
+        prePrint(treeNode);
+    }
+
+    //二叉树的前序打印
+    public  static void prePrint(TreeNode treeNode){
+        if (treeNode != null) {
+            System.out.println(treeNode.val);
+            prePrint(treeNode.left);
+            prePrint(treeNode.right);
+        }
     }
     
     public static class TreeNode {
@@ -18,7 +32,7 @@ public class 零六重建二叉树 {
      则重建二叉树并返回。
 	思路：先找出根节点，然后利用递归方法构造二叉树
      */
-    public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
+    public static TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         if (pre == null || in == null) {
             return null;
         }

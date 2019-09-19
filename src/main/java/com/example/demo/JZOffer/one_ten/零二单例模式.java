@@ -1,4 +1,4 @@
-package com.example.demo.JZOffer;
+package com.example.demo.JZOffer.one_ten;
 
 public class 零二单例模式 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.example.demo.JZOffer;
+package com.example.demo.JZOffer.one_ten;
 
-public class 零三找二维数组中的数3 {
+public class 零三找二维数组中的数 {
 
     public static void main(String[] args) {
         int[][] array =  {

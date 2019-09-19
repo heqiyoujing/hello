@@ -1,4 +1,4 @@
-package com.example.demo.JZOffer;
+package com.example.demo.JZOffer.one_ten;
 
 public class 零一值运算函数 {
     public static void main(String[] args) {
